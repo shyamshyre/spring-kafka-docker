@@ -1,5 +1,5 @@
-# Spring Micro Services Application can be designed under various fashions.
-1) Build as isolated services.
+# Spring Micro Services Application can be designed under various approaches.
+1) Built as isolated services and calling them using .
 2) Separating the internal services using CQRS design pattern.
 3) Developing all the services using modular approach.
 
