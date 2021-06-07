@@ -36,7 +36,7 @@ and then used this initializer in the TwitterToKafkaServiceApplication prior to 
   
 - We be using Spring-boot-maven-plugin at the end to generate a docker image.
 - <goal>build-image</goal> is responsible for creating the docker image.
-- When we run mvn install , it tries to load the context in the tests.
+- When we run mvn install , it tries to load the context and execute the tests if exists.
 - Use mvn run skip tests
 - Spring-boot follows a layered approach
 - Prevents creating a single fat jar
